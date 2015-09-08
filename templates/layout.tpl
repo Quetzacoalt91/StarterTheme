@@ -15,6 +15,10 @@
       {/block}
     </header>
 
+    {block name="messages"}
+      {include file="_partials/messages.tpl"}
+    {/block}
+
     {* StarterTheme: Manage columns *}
 
     {block name="content"}
